@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/index.css" />
     <title>project1</title>
@@ -20,9 +21,6 @@
             <li><a href="#">WHAT WE DO</a></li>
             <li><a href="#">TRAVEL WITH US</a></li>
             <li><a href="#">CONTACT US</a></li>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fas fa-bars"></i>
-            </a>
           </ul>
         </nav>
         <div class="head_centre">
@@ -41,23 +39,32 @@
           </form>
         </div>
         <div class="head_scroll">
-          <p>Scroll Down</p>
+          <a href="#about">Scroll Down</a>
+          
           <span class="material-icons">
             keyboard_arrow_down
+            
             </span>
         </div>
         </div>
       </header>
     </div>
-    <script>
-      function myFunction() {
-        var x = document.getElementById("navbar");
-        if (x.className === "nav_li") {
-          x.className += " responsive";
-        } else {
-          x.className = "nav_li";
-        }
-      }
-    </script>
+    <main>
+      <div class="section1" id="about">
+          <div class="info1" id="aboutus">
+              <h3 class="heading1">Why Choose Us</h3>
+              <div class="text1">
+                  <p>Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the moment, 
+                      so blinded by desire, that they cannot foresee</p> 
+                  <p>Ddislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, 
+                      that.</p>
+              </div>
+              <button class="btn_about">Explore places</button> 
+          </div>
+          <div class="img_about">
+              <img class="img_one1" src="/images/lake.png" alt="A house by a lake">
+              <img class="img_one2" src="/images/mountains.png" alt="A person standing on a mountain">
+          </div>
+      </div>
   </body>
 </html>

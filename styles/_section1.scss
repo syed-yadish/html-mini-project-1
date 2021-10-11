@@ -1,0 +1,68 @@
+.section1 {
+  height: 685px;
+  color: fonts.$txt-color;
+  background-image: url(/images/city.png);
+  font-style: normal;
+  font-weight: normal;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.info1 {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.heading1 {
+  font-family: fonts.$main-serif;
+  font-size: 36px;
+  line-height: 26px;
+  /* identical to box height, or 72% */
+}
+
+.text1 {
+  font-family: fonts.$main-sans;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  letter-spacing: 1.6px;
+  color: #e8e8e8;
+}
+
+.btn_about {
+  font-family: fonts.$main-serif;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  background-color: fonts.$color-blue;
+  color: fonts.$txt-color;
+  border: none;
+  height: 63px;
+  max-width: 230px;
+}
+
+.btn_about:hover,
+.btn_about:active {
+  background-color: blue;
+}
+
+.img_about {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.img_one1 {
+  width: 350px;
+  margin: 10px;
+  align-self: flex-start;
+}
+.img_one2 {
+  width: 350px;
+  margin: 10px;
+  align-self: flex-end;
+}
