@@ -3,8 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/index.css" />
     <title>project1</title>
   </head>
-  <body></body>
+  <body>
+      <header>
+        <nav class="nav">
+          <div class="logo">
+            <img class="logo_img" src="images/logo.png" alt="logo" />
+          </div>
+          <ul class="nav_li" id="navbar">
+            <li><a href="#">WHO WE ARE</a></li>
+            <li><a href="#">WHAT WE DO</a></li>
+            <li><a href="#">TRAVEL WITH US</a></li>
+            <li><a href="#">CONTACT US</a></li>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fas fa-bars"></i>
+            </a>
+          </ul>
+        </nav>
+        <div class="head_centre">
+        <div class="head_card">
+          <div class="heading">
+            <h1>BHROMAON</h1>
+          </div>
+          <div class="head_text">
+            <h3>Safe Travel Anywhere</h3>
+          </div>
+        </div>
+        <div class="head_search">
+          <form class="search_bar">
+            <input type="text" placeholder="Search Your Travel Destinations" name="search">
+            <button type="submit">SEARCH<i class="fa fa-search"></i></button>
+          </form>
+        </div>
+        <div class="head_scroll">
+          <p>Scroll Down</p>
+          <span class="material-icons">
+            keyboard_arrow_down
+            </span>
+        </div>
+        </div>
+      </header>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("navbar");
+        if (x.className === "nav_li") {
+          x.className += " responsive";
+        } else {
+          x.className = "nav_li";
+        }
+      }
+    </script>
+  </body>
 </html>
